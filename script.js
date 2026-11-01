@@ -1,0 +1,7 @@
+const toggle=document.querySelector('#menuToggle'),nav=document.querySelector('#nav');
+toggle.addEventListener('click',()=>{const open=nav.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.setAttribute('aria-label',open?'Close navigation':'Open navigation');toggle.innerHTML=open?'<i data-lucide="x"></i>':'<i data-lucide="menu"></i>';if(window.lucide)lucide.createIcons()});
+nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{nav.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.innerHTML='<i data-lucide="menu"></i>';if(window.lucide)lucide.createIcons()}));
+const roles=['useful digital experiences.','cloud-powered solutions.','software with purpose.','ideas into working products.'];let ri=0,ci=0,del=false;const target=document.querySelector('#typedRole');
+function type(){const word=roles[ri];ci+=del?-1:1;target.textContent=word.slice(0,ci);if(!del&&ci===word.length){del=true;setTimeout(type,1400);return}if(del&&ci===0){del=false;ri=(ri+1)%roles.length}setTimeout(type,del?35:65)}setTimeout(type,1800);
+const sections=document.querySelectorAll('main section[id]'),links=document.querySelectorAll('#nav a[href^="#"]');const obs=new IntersectionObserver(entries=>entries.forEach(e=>{if(e.isIntersecting)links.forEach(a=>a.classList.toggle('active',a.getAttribute('href')==='#'+e.target.id))}),{rootMargin:'-35% 0px -55% 0px'});sections.forEach(s=>obs.observe(s));
+document.querySelector('#year').textContent=new Date().getFullYear();if(window.lucide)lucide.createIcons();
