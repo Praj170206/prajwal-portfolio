@@ -1,17 +1,87 @@
-# Prajwal Chetan Jain — Portfolio
+# Prajwal Jain | Personal Portfolio
 
-Responsive personal portfolio built with semantic HTML5, CSS3 and vanilla JavaScript.
+Hi! I'm Prajwal Jain, a Computer Engineering student at Vishwakarma Institute of Technology (VIT), Pune, specializing in Software Engineering.
 
-## Sections
-Hero, About, Technical Skills, Experience & Leadership, Projects, Certifications & Highlights, Contact.
+I created this portfolio to showcase my technical skills, projects, experience, and learning journey. It highlights the work I've done across software development, web technologies, and AI-based applications.
 
-## Run locally
-1. Clone/download this repository.
-2. Open the folder in VS Code.
-3. Open `index.html` with Live Server, or open it directly in a browser.
+## 🚀 About the Project
 
-## Before publishing
-Your GitHub, LinkedIn and LeetCode profile links are already added. Project cards link to your GitHub profile until you provide the individual repository URLs. Confirm the contact email is the address you want to publish.
+This is my personal portfolio website, built using HTML, CSS, and Vanilla JavaScript. I wanted to create a clean, modern, and responsive website where anyone can easily explore my background, technical interests, and projects.
 
-## Accuracy
-Project summaries are based on the supplied resume. Add screenshots, demos, or more technical detail only when you can verify them.
+## ✨ Features
+
+- **Hero Section:** A brief introduction with links to my profiles.
+- **About Me:** My academic background and professional interests.
+- **Skills:** Programming languages, frameworks, tools, and core concepts.
+- **Projects:** A showcase of my selected academic and personal projects.
+- **Experience & Leadership:** My internships, responsibilities, and extracurricular contributions.
+- **Certifications:** Courses and certifications I've completed.
+- **Contact:** Ways to connect with me.
+
+## 🛠️ Tech Stack
+
+- HTML5 – Website structure
+- CSS3 – Styling, layouts, animations, and responsiveness
+- JavaScript – Interactive elements and functionality
+- Lucide Icons – Icons
+- Google Fonts – Typography
+
+## 📂 Project Structure
+
+```text
+prajwal-portfolio/
+│
+├── index.html
+├── style.css
+├── script.js
+└── README.md
+```
+
+## 💻 Getting Started
+
+To explore or run this project locally:
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/Praj170206/prajwal-portfolio.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd prajwal-portfolio
+   ```
+
+3. Open `index.html` in your browser.
+
+You can also open the folder in VS Code and use the Live Server extension.
+
+## 📌 Featured Projects
+
+Some of the projects showcased in my portfolio include:
+
+- **Vision of Wings:** An AI-powered accessibility platform designed to assist visually impaired individuals.
+- **AI Vulnerability Scanner:** A project focused on collecting, analyzing, and presenting vulnerability-related information.
+- **Battery Monitoring System:** An industry project developed in collaboration with MakeTechBerry Ltd.
+- **City Pulse:** A smart pothole management solution developed around civic infrastructure.
+- **MPLADS Sentinel:** An AI-based monitoring and analytics dashboard.
+
+## 🎯 Objective
+
+My goal is to keep learning, improve my development skills, and build practical solutions to real-world problems. This portfolio will continue to evolve as I work on new projects and gain more experience.
+
+## 📬 Connect With Me
+
+- **GitHub:** https://github.com/Praj170206
+- **LinkedIn:** https://www.linkedin.com/in/connectwithprajwal/
+- **LeetCode:** https://leetcode.com/u/Prajwal_C_Jain/
+- **Email:** prajwal.jain24@vit.edu
+
+---
+
+⭐ Thank you for visiting my repository!
+
+**Prajwal Jain**  
+B.Tech Computer Engineering (Software Engineering)  
+VIT Pune
